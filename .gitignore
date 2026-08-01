@@ -1,0 +1,24 @@
+# Generated object files
+*.o
+
+# Generated contents of obj/
+obj/*
+!obj/.gitkeep
+
+# Generated contents of bin/
+bin/*
+!bin/.gitkeep
+
+# Other generated executable files
+*.out
+
+# Core dump files
+core
+core.*
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary files
+*~
