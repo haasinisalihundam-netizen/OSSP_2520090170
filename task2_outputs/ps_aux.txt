@@ -1,0 +1,20 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  22108 12008 ?        Ss   05:09   0:09 /usr/lib/systemd/systemd --system --deserialize=53
+root           2  0.0  0.0   3180  2208 hvc0     Sl+  05:09   0:00 /init
+root           7  0.0  0.0   3196  2132 hvc0     Sl+  05:09   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root         197  0.0  0.0   4244  2684 ?        Ss   05:09   0:00 /usr/sbin/cron -f -P
+message+     198  0.0  0.0   9860  5764 ?        Ss   05:09   0:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         280  0.0  0.1  17968  8900 ?        Ss   05:09   0:00 /usr/lib/systemd/systemd-logind
+root         301  0.0  0.1 1756104 13536 ?       Ssl  05:09   0:00 /usr/libexec/wsl-pro-service -vv
+root         323  0.0  0.3 107016 23236 ?        Ssl  05:09   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         325  0.0  0.0   3124  1976 tty1     Ss+  05:09   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         396  0.0  0.0   3184  1112 ?        Ss   05:09   0:00 /init
+root         397  0.0  0.0   3200  1248 ?        S    05:09   0:00 /init
+haasini      399  0.0  0.0   6080  5412 pts/0    Ss   05:09   0:00 -bash
+root         400  0.0  0.0   6704  4716 pts/1    Ss   05:09   0:00 /bin/login -f
+haasini      447  0.0  0.1  20024  9428 ?        Ss   05:09   0:00 /usr/lib/systemd/systemd --user --deserialize=8
+haasini      448  0.0  0.0  21156  3596 ?        S    05:09   0:00 (sd-pam)
+haasini      469  0.0  0.0   6080  5336 pts/1    S+   05:09   0:00 -bash
+root        5759  0.0  0.1  34184 12404 ?        S<s  07:53   0:00 /usr/lib/systemd/systemd-journald
+systemd+    5812  0.0  0.0  91032  6872 ?        Ssl  07:53   0:00 /usr/lib/systemd/systemd-timesyncd
+root        5864  0.0  0.0  25128  5868 ?        Ss   07:53   0:01 /usr/lib/systemd/systemd-udevd

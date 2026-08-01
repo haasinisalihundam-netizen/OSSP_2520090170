@@ -1,0 +1,25 @@
+top - 09:32:39 up  4:22,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  25 total,   1 running,  24 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.6 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   6849.7 total,   6228.5 free,    557.8 used,    229.7 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6291.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   22108  12008   8212 S   0.0   0.2   0:09.76 systemd
+      2 root      20   0    3180   2208   2072 S   0.0   0.0   0:00.03 init-sy+
+      7 root      20   0    3196   2132   2008 S   0.0   0.0   0:00.00 init
+    197 root      20   0    4244   2684   2432 S   0.0   0.0   0:00.07 cron
+    198 message+  20   0    9860   5764   4724 S   0.0   0.1   0:02.21 dbus-da+
+    280 root      20   0   17968   8900   7848 S   0.0   0.1   0:00.93 systemd+
+    301 root      20   0 1756104  13536   9864 S   0.0   0.2   0:00.98 wsl-pro+
+    323 root      20   0  107016  23236  13776 S   0.0   0.3   0:00.31 unatten+
+    325 root      20   0    3124   1976   1836 S   0.0   0.0   0:00.01 agetty
+    396 root      20   0    3184   1112    980 S   0.0   0.0   0:00.00 Session+
+    397 root      20   0    3200   1248   1108 S   0.0   0.0   0:00.21 Relay(3+
+    399 haasini   20   0    6080   5412   3696 S   0.0   0.1   0:00.38 bash
+    400 root      20   0    6704   4716   3932 S   0.0   0.1   0:00.01 login
+    447 haasini   20   0   20024   9428   7612 S   0.0   0.1   0:00.46 systemd
+    448 haasini   20   0   21156   3596   1868 S   0.0   0.1   0:00.00 (sd-pam)
+    469 haasini   20   0    6080   5336   3672 S   0.0   0.1   0:00.03 bash
+   5759 root      19  -1   34184  12408  11380 S   0.0   0.2   0:00.82 systemd+
+   5812 systemd+  20   0   91032   6872   5900 S   0.0   0.1   0:00.37 systemd+
